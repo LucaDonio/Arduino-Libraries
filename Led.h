@@ -15,7 +15,7 @@ public:
 	void off();
 	void blink(int time);
 private:
-	boolean state;
+	bool state;
 	int pin;
 };
 
